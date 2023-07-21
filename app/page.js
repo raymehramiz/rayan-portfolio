@@ -20,7 +20,7 @@ export default function Home() {
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Mahbod Rayan Mehramiz</h2>
-            <h3 className='text-2xl text-gray-300 py-2 md:text-3xl'>Contact: <a className='text-teal-600' href='mailto:max.mustermann@example.com'>mehramiz.ray@gmail.com</a></h3>
+            <h3 className='text-2xl dark:text-gray-300 py-2 md:text-3xl'>Contact: <a className='text-teal-600' href='mailto:max.mustermann@example.com'>mehramiz.ray@gmail.com</a></h3>
             <p className='text-md py-5 leading-8 text-gray-500 md:text-xl max-w-xl mx-auto'>
               I am a Computer Engineer, Developer and Programmer Alumni of University of Toronto.
               I hope you consider me for your project or team.
@@ -43,10 +43,10 @@ export default function Home() {
             </p>
           </div>
           <div className='gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1'>
+            <div className='text-center shadow-gray-500 shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1'>
               <Image style={{margin: "auto",}} src={code} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Portfolio Code Projects</h3>
-              <p className='text-gray-400 py-2'>Coding Projects linked to their GitHub repos showcasing my skills as a Programmer</p>
+              <p className='text-gray-500 dark:text-gray-300 py-2'>Coding Projects linked to their GitHub repos showcasing my skills as a Programmer</p>
               <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
                 <div className='basis-1/3 flex-1'><a href='https://github.com/raymehramiz/TF_Churn/blob/main/TF_Churn.ipynb'><Image className='rounded-lg object-cover' width={"100%"} height={"100%"} src={project1}/></a></div>
                 <div className='basis-1/3 flex-1'><a href='https://github.com/raymehramiz/TF_LipNet_Clone/blob/main/Lip_Reading.ipynb'><Image className='rounded-lg object-cover' width={"100%"} height={"100%"} src={project2}/></a></div>
