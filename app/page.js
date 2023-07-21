@@ -20,7 +20,7 @@ export default function Home() {
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Mahbod Rayan Mehramiz</h2>
-            <h3 className='text-2xl dark:text-gray-300 py-2 md:text-3xl'>Contact: <a className='text-teal-600' href='mailto:max.mustermann@example.com'>mehramiz.ray@gmail.com</a></h3>
+            <h3 className='text-2xl dark:text-gray-300 py-2 md:text-3xl'>Contact: <a className='text-teal-600' href='mailto:mehramiz.ray@gmail.com'>mehramiz.ray@gmail.com</a></h3>
             <p className='text-md py-5 leading-8 text-gray-500 md:text-xl max-w-xl mx-auto'>
               I am a Computer Engineer, Developer and Programmer Alumni of University of Toronto.
               I hope you consider me for your project or team.
