@@ -4,6 +4,7 @@ import  avatar from '../public/cartoon_avatar_me.png';
 import code from '../public/code.png';
 import project1 from '../public/proj1.png';
 import project2 from '../public/proj2.png';
+import raybnb from '../public/raybnb.jpg';
 
 
 export default function Home() {
@@ -50,6 +51,7 @@ export default function Home() {
               <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
                 <div className='basis-1/3 flex-1'><a href='https://github.com/raymehramiz/TF_Churn/blob/main/TF_Churn.ipynb'><Image className='rounded-lg object-cover' width={"100%"} height={"100%"} src={project1}/></a></div>
                 <div className='basis-1/3 flex-1'><a href='https://github.com/raymehramiz/TF_LipNet_Clone/blob/main/Lip_Reading.ipynb'><Image className='rounded-lg object-cover' width={"100%"} height={"100%"} src={project2}/></a></div>
+                <div className='basis-1/3 flex-1'><a href='https://raybnb-clone-1qvqu7jxb-mehramizray-gmailcom.vercel.app'><Image className='rounded-lg object-cover' width={"100%"} height={"100%"} src={raybnb}/></a></div>
               </div>
             </div>
           </div>
